@@ -1,2 +1,2 @@
 # NODE-MCU-codes
-It contains code related to node mcu (software implementation)
+It contains code which may help while using node mcu.

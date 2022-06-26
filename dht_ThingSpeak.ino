@@ -47,8 +47,8 @@ void loop(){
     Serial.print(temp);
 
 
-    ThingSpeak.setField(1, Temp);
-    ThingSpeak.setField(2, hum);
+    ThingSpeak.setField(1, Temp); // temperature will be displayed on chart 1
+    ThingSpeak.setField(2, hum);  // humidity will be displayed on chart 2
 
     ThingSpeak.writeFields(id, api);
   }
@@ -56,3 +56,4 @@ void loop(){
   delay(15000); // 15 seconds refresh time
 
 }
+

@@ -1,7 +1,7 @@
 #include<ESP8266WiFi.h>
 
-char* ssid = "SIEMENS";   // WiFi name
-char* pass = "$i#m#n$@CAM";  // WiFi password
+char* ssid = "SYED";   // WiFi name
+char* pass = "COOLguyz";  // WiFi password
 
 WiFiClient client;
 

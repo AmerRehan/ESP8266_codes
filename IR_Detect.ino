@@ -16,6 +16,9 @@ void loop(){
   if(receiver.decode(&results)){
     
     Serial.println(results.value, HEX); // signal will be in hexadecimal form
+     //OR
+    Serial.println(results.value, DEC); // signal will be in decimal form
+ 
     receiver.resume();
   }
 }
